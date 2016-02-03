@@ -1,0 +1,499 @@
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+ServerResponse {
+  domain: null,
+  _events: { finish: [Function: resOnFinish] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  output: [],
+  outputEncodings: [],
+  outputCallbacks: [],
+  outputSize: 0,
+  writable: true,
+  _last: true,
+  chunkedEncoding: false,
+  shouldKeepAlive: false,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedHeader: {},
+  _contentLength: null,
+  _hasBody: false,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: 12,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 1,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 115,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::9312' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { [Function: utcDate]
+        _onTimeout: [Function],
+        _idleTimeout: 823,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 1711 },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 1734,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Object],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: [Circular] },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: 12,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 1,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 115,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::9312' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { [Function: utcDate]
+        _onTimeout: [Function],
+        _idleTimeout: 823,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 1711 },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 1734,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Object],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: [Circular] },
+  _header: 'HTTP/1.1 204 No Content\r\nContent-Type: application/json\r\nDate: Wed, 03 Feb 2016 13:20:42 GMT\r\nConnection: close\r\n\r\n',
+  _headers: null,
+  _headerNames: {},
+  _onPendingData: [Function: updateOutgoingData],
+  statusMessage: 'No Content',
+  statusCode: 204 }
+Start Server 9312
+undefined
+Start Server 9312
+undefined
+undefined
+Start Server 9312
+undefined
+undefined
+undefined
+Start Server 9312
+undefined
+Start Server 9312
+undefined
+undefined
+Start Server 9312
+undefined
+undefined
+{"title":"The Big Bang Theory","season":1,"episode":1}
+Start Server 9312
+undefined
+{"title":"The Big Bang Theory","season":1,"episode":1}
+Start Server 9312
+undefined
+
+Start Server 9312
+undefined
+[ '' ]
+Start Server 9312
+undefined
+
+[ '' ]
+Start Server 9312
+undefined
+
+Start Server 9312
+undefined
+undefined
+{"title":"The Big Bang Theory","season":1,"episode":1}
+Start Server 9312
+undefined
+undefined
+Start Server 9312
+undefined
+
+Start Server 9312
+undefined
+undefined
+{"title":"The Big Bang Theory","season":1,"episode":1}
+{"title":"The Big Bang Theory","season":1,"episode":1}
+Start Server 9312
+undefined
+undefined
+Start Server 9312
+undefined
+undefined
+Start Server 9312
+{"title":"The Big Bang Theory","season":1,"episode":1}
+Start Server 9312
+[ '{"title":"The Big Bang Theory","season":1,"episode":1}' ]
+Start Server 9312
+["{\"title\":\"The Big Bang Theory\",\"season\":1,\"episode\":1}"]
+Start Server 9312
+["{\"title\":\"The Big Bang Theory\",\"season\":1,\"episode\":1}"]
+Start Server 9312
+["{\"title\":\"The Big Bang Theory\",\"season\":1,\"episode\":1}"]
+Start Server 9312
+["{\"title\":\"The Big Bang Theory\",\"season\":1,\"episode\":1}"]
+Start Server 9312
+["{\"title\":\"The Big Bang Theory\",\"season\":1,\"episode\":1}"]
+Start Server 9312
+["{\"title\":\"The Big Bang Theory\",\"season\":1,\"episode\":1}"]
+on passe {"title":"The Big Bang Theory","season":1,"episode":1}
+Start Server 9312
+on passe {"title":"The Big Bang Theory","season":1,"episode":1}
+Start Server 9312
+blabla de sisi{"title":"The Big Bang Theory","season":1,"episode":1}
+on passe {"title":"The Big Bang Theory","season":1,"episode":1}
+Start Server 9312
+blabla de sisi{"title":"The Big Bang Theory","season":1,"episode":1}
+on passe [object Object]
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+[ {},
+  { title: 'The Big Bang Theory', season: 1, episode: 1 },
+  id: '11403242322030223040424043431241044220040023112244401221233220111104130111241014030224323232142322001320443430233013321023212000001314334044320302332410100132220030214422233133130111204304241433423131331442240024411100001432224001431400341401112222341323433121422111223321122220323122241030311421142112323312424103144404423040333301012414121222332214020111303214003101122344410140203131441010203233323140212334434212213301400244033132131042310123420401342232103130304242331441114224024343212204404044032042244414232312114012320232203044020330430023231104400340314004404242123144432204023131431204310320400214230200420303144303044222332004123242024042002241410043034434341233403300013212200321334120300434414342432102013234402143130134331441403340321023304411120043443131333103022410102414121344301132031230121013233024004204304304211141010104044004302314132314130431101234004130424100034411441431414041134331331414033234231302113032041302214132201024010024104131124032333241241101122423203143334021031014301110002434430413233441323342010123320203310231101132321413044010410333333101111311220211' ]
+Start Server 9312
+Start Server 9312
+Start Server 9312
+{ title: 'The Big Bang Theory', season: 1, episode: 1 }
+Start Server 9312
+{ title: 'The Big Bang Theory', season: 1, episode: 1 }
+Start Server 9312
+{ title: 'The Big Bang Theory', season: 1, episode: 1 }
+u09e8xmkj4i
+Start Server 9312
+{ title: 'The Big Bang Theory', season: 1, episode: 1 }
+vsm1ifwdn29
+{ title: 'The Big Bang Theory',
+  season: 1,
+  episode: 1,
+  id: 'vsm1ifwdn29' }
+Start Server 9312
+{ title: 'The Big Bang Theory', season: 1, episode: 1 }
+cacpst6gvi
+{ title: 'The Big Bang Theory',
+  season: 1,
+  episode: 1,
+  id: 'cacpst6gvi' }
+Start Server 9312
+{ title: 'The Big Bang Theory', season: 1, episode: 1 }
+05yn45cdi
+{ title: 'The Big Bang Theory',
+  season: 1,
+  episode: 1,
+  id: '05yn45cdi' }
+Start Server 9312
+Start Server 9312
+ici [object Object]
+Start Server 9312
+ici [object Object]
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"we4nritqpvi"}
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"2htvpge3ik9"}
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"q5wcst0rudi"}
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"y4klfskyb9"}
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"gh5htt65hfr"}
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"mfxul7n9udi"}
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"ls7fwasjor"}
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"5ke2ilzncdi"}
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"8krax5ka9k9"}
+on est ici
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"xfjfncanhfr"}
+Start Server 9312
+on passe ici 2 fois :
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"lnlacmlhaor"}
+on passe ici 2 fois :[object Object]
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"topzdpo80k9"}
+[{"title":"The Big Bang Theory","season":1,"episode":1,"id":"topzdpo80k9"}]
+Start Server 9312
+ici {"title":"The Big Bang Theory","season":1,"episode":1,"id":"cihrara4i"}
+Start Server 9312
+Start Server 9312
+Start Server 9312
+on passe iciundefined
+Start Server 9312
+0
+1
+Start Server 9312
+ici
+Start Server 9312
+[{"title":"The Big Bang Theory","season":1,"episode":1,"id":"wyiacoqd7vi"}]
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+ryy32z9f6r
+ryy32z9f6r
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
+Start Server 9312
